@@ -1,0 +1,65 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #6a1b9a;
+    padding: 25px;
+    color: white;
+    text-align: center;
+}
+
+.contenido {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #8e24aa;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #4a0072;
+}
+
+select {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.form-section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#resultado, #infoGenero {
+    font-weight: bold;
+    margin-top: 15px;
+}
